@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-09T13:07:17 PKT" name="Default suite" finished-at="2024-10-09T13:07:22 PKT" duration-ms="5407">
+    <groups>
+    </groups>
+    <test started-at="2024-10-09T13:07:17 PKT" name="Default test" finished-at="2024-10-09T13:07:22 PKT" duration-ms="5407">
+      <class name="test.DataDrivenTestingUsingJson">
+        <test-method signature="DataDrivenTesting(java.util.LinkedHashMap)[pri:0, instance:test.DataDrivenTestingUsingJson@41a0aa7d]" started-at="2024-10-09T13:07:17 PKT" name="DataDrivenTesting" data-provider="getTestData" finished-at="2024-10-09T13:07:20 PKT" duration-ms="2683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=1, firstname=Nabila, lastname=Mubeen, email=nabilamubeen@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.LinkedHashMap)[pri:0, instance:test.DataDrivenTestingUsingJson@41a0aa7d]" started-at="2024-10-09T13:07:20 PKT" name="DataDrivenTesting" data-provider="getTestData" finished-at="2024-10-09T13:07:21 PKT" duration-ms="787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=2, firstname=Mubeen, lastname=Jamal, email=mubeenjamal@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.LinkedHashMap)[pri:0, instance:test.DataDrivenTestingUsingJson@41a0aa7d]" started-at="2024-10-09T13:07:21 PKT" name="DataDrivenTesting" data-provider="getTestData" finished-at="2024-10-09T13:07:21 PKT" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=3, firstname=Aroosh, lastname=Mubeen, email=arooshmubeen@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.LinkedHashMap)[pri:0, instance:test.DataDrivenTestingUsingJson@41a0aa7d]" started-at="2024-10-09T13:07:21 PKT" name="DataDrivenTesting" data-provider="getTestData" finished-at="2024-10-09T13:07:22 PKT" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=4, firstname=Isra, lastname=Fatima, email=israfatima@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+      </class> <!-- test.DataDrivenTestingUsingJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
